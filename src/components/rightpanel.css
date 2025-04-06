@@ -1,0 +1,144 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dee2e6;
+    width: 25%;
+    height: 100%;
+}
+.creditcard{
+    position: relative;
+    box-shadow:  0 0 15px rgba(131, 56, 236, 0.4), /* Soft purple glow */
+    0 0 10px rgba(0, 0, 0, 0.1); /* Light black shadow for depth */
+    border-radius: 20px;
+    width: 80%;
+    height: 25%;
+    background-color:#8338ec ;
+}
+.creditcard h2{
+    left: 20px;
+    bottom: 5px;
+    position: absolute;
+    color: white;
+}
+.creditcard h4{
+    top:10px;
+    left: 60px;
+    position: absolute;
+    color: white;
+}
+.creditcard h3{
+    font-size: 25px;
+    top:0px;
+    right: 70px;
+    position: absolute;
+    color: white;
+}
+.creditcard p{
+    font-size: small;
+    top:80px;
+    left: 30px;
+    position: absolute;
+    color: white;
+}
+.creditcard span{
+    top:110px;
+    left: 30px;
+    position: absolute;
+    color: white;
+}
+.creditcard .btm-right-1{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    right: 70px;
+}
+.creditcard .btm-right-2{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    right: 75px;
+}
+.creditcard .btm-right-3{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    right: 20px;
+}
+.creditcard .btm-right-4{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    right: 25px;
+}
+.schedule{
+    margin-top: 10px;
+    width: 90%;
+    height: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.schedule p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.schedule-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.schedule-header h2 {
+    margin: 3px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.schedule-header h4 {
+    margin: 1px;
+    margin-top: -1px;
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+}
+.payment-items {
+    margin-top: 0px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+  .payment-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .item-top {
+    display: flex;
+    align-items: center;
+  }
+  .item-sub {
+    margin-left: 45px; /* aligns with start of text, after icon */
+    color: gray;
+    font-size: 14px;
+  }
+  .payment-items p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .payment-items p span{
+    margin-top: 0px;
+    position: relative;
+    color: gray;
+  }

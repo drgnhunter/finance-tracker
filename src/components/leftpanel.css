@@ -1,0 +1,56 @@
+.left{
+    background-color: #8338ec;
+    width: 10%;
+    height: 100%;
+}
+.top{
+    position:relative;
+    top:60px;
+    color: white;
+    margin-bottom: 60px;
+}
+.icons{
+    position: relative;
+    top:60px;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.icons * + *{
+    margin-top: 25px;
+}
+.icons *{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.icons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.icons div:hover{
+    box-shadow: 0 0 10px #9b5efc;
+}
+.icons .big{
+    font-size: 20px;
+}
+.bottom{
+    gap:25px;
+    height: 105px;
+    margin-top: 27vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.bottom div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 25px;
+}
+.bottom div:hover{
+    box-shadow: 0 0 10px #9b5efc;
+}

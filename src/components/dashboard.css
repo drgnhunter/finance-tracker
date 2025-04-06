@@ -1,0 +1,7 @@
+.board{
+    width: calc(100vw - 0.5px);
+    height: calc(100vh - 0.5px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

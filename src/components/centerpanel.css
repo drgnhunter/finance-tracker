@@ -1,0 +1,56 @@
+.center{
+    background-color: #f2ebfb;
+    width: 65%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title h4{
+    color: #9d8189 ;
+   position: relative;
+   bottom: 30px;
+   left:20px
+}
+.title h1{
+    position: relative;
+    left:20px
+}
+.dashboard{
+    height: 35%;
+    width: 100%;
+}
+.cards{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60%;
+    bottom:40px;
+}
+.cards div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    width: 100px;
+    font-size: 30px;
+    position:relative;
+    padding: 50px 70px;
+    height: 65px;
+    border-radius: 35px 40px 35px 40px / 35px 40px 35px 40px;
+}
+.cards div p{
+    color: #9d8189;
+    font-weight: 600;
+    font-size: 17px;
+    flex-wrap: wrap;
+}
